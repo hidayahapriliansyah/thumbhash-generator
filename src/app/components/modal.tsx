@@ -21,7 +21,7 @@ const Modal = () => {
     <>
       {/* Button to open the modal */}
       <button className="btn" onClick={openModal}>
-        <Info />
+        <Info className='w-4 sm:w-6 h-4 sm:h-6' />
       </button>
 
       {/* Modal element */}

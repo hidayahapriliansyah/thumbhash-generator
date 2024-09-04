@@ -9,11 +9,11 @@ import MaxGeneratedPixelLength from './components/MaxGeneratedPixelLength';
 export default function Home() {
   return (
     <main className='relative w-full max-w-7xl mx-auto p-8'>
-      <header className='relative w-fit mx-auto'>
-        <h1 className='text-center font-black text-4xl bg-custom-gradient bg-clip-text text-transparent'>
+      <header className='relative w-full sm:w-fit mx-auto'>
+        <h1 className='text-center font-black text-2xl md:text-4xl bg-custom-gradient bg-clip-text text-transparent'>
           Thumbhash Generator
         </h1>
-        <div className='absolute top-0 -right-20'>
+        <div className='absolute -bottom-10 sm:top-0 -right-10 sm:-right-20'>
           <Modal />
         </div>
       </header>
