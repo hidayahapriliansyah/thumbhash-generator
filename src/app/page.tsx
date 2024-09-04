@@ -18,12 +18,12 @@ export default function Home() {
         </div>
       </header>
       <p className='block mx-auto mb-8 w-fit text-center'>Effortless Tiny Image Placeholders</p>
-      <section className='flex gap-4 w-full'>
-        <div className='w-[50%]'>
+      <section className='flex flex-col md:flex-row gap-4 w-full'>
+        <div className='mx-auto w-full md:max-w-[50%]'>
           <ImageUpload />
           <MaxGeneratedPixelLength />
         </div>
-        <div className='w-[50%]'>
+        <div className='mx-auto w-full md:max-w-[50%]'>
           <HashURLImageResult />
           <HashStringResult />
         </div>
